@@ -138,9 +138,9 @@
             <span class="author-block">
                <a href="https://scholar.google.com/citations?hl=en&user=V4miywEAAAAJ" target="_blank">Changjian Jiang</a>,</span>
                  <span class="author-block">
-                    Lijie Wang,</a>,</span>    
+                    Lijie Wang</a>,</span>    
                   <span class="author-block">
-                    Zeyu Wan,</a>,</span>    
+                    Zeyu Wan</a>,</span>    
                     <span class="author-block">
                       Ruilan Gao</a>,</span>
                       <span class="author-block">
@@ -245,35 +245,6 @@
       </div>
     </div>
 
-    <!-- Paper video. -->
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2> 
-        <div class="container">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-           <source src="./static/videos/method.mp4"
-                   type="video/mp4">
-          </video>
-    <!--/ Paper video. -->
-
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Comparison</h2> 
-        <div class="container">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-           <source src="./static/videos/comparison_outdoor.mp4"
-                   type="video/mp4">
-          </video>
-      </div>
-          <div class="container">
-            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-             <source src="./static/videos/comparison_indoor.mp4"
-                     type="video/mp4">
-            </video>
-        </div> -->
-    <!-- / Paper video. -->
 
   </div>
 </section>
@@ -348,103 +319,27 @@
 </section>
 
 
-<!-- <section class="section">
-  <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-      <h3 class="title is-3">More Results</h3>
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+          @ARTICLE{10816486,
+            author={Jiang, Changjian and Gao, Ruilan and Shao, Kele and Wang, Yue and Xiong, Rong and Zhang, Yu},
+            journal={IEEE Robotics and Automation Letters}, 
+            title={LI-GS: Gaussian Splatting With LiDAR Incorporated for Accurate Large-Scale Reconstruction}, 
+            year={2025},
+            volume={10},
+            number={2},
+            pages={1864-1871},
+            keywords={Laser radar;Accuracy;Image reconstruction;Three-dimensional displays;Point cloud compression;Surface reconstruction;Optimization;Rendering (computer graphics);Neural radiance field;Geometry;Mapping;sensor fusion},
+            doi={10.1109/LRA.2024.3522846}
+        }
+      </code></pre>
     </div>
-
-   <p>
-    <strong style="color: blue";> 
-    Note that no prior used in our GaussianPro.
-    </strong>
-  </p>
-   <section class="hero is-light is-small">
-     <div class="hero-body">
-       <div class="container">
-           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/scene100613.mp4"
-                    type="video/mp4">
-           </video>
-       </div>
-       <div class="container">
-        <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-          <source src="./static/videos/scene148697.mp4"
-                  type="video/mp4">
-        </video>
-    </div>
-    <div class="container">
-      <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/videos/scene164701.mp4"
-                type="video/mp4">
-      </video>
-      <br>
-      <p style="font-size: 16px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Rendered Images</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Rendered Depth</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Rendered Normal</b></p>
-      <br>
-  </div>
-     </div>
-   </section>
-   <br>
 </section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-      <h3 class="title is-3">Mesh Visualization</h3>
-    </div>
-
-   <p>
-    <strong style="color: black";> 
-      Please note that we did not perform any additional processing on the sky, 
-      but it is possible to separate the sky from the foreground by segmenting them as an independent layer during modeling.
-    </strong>
-  </p>
-  <section class="hero is-light is-small">
-    <div class="hero-body">
-      <div class="container">
-         <div class="video-container">
-           <video width="320" height="240" autoplay controls muted loop playsinline>
-             <source src="./static/videos/waymo_final.mp4" type="video/mp4">
-           </video>
-           <video width="320" height="240" autoplay controls muted loop playsinline>
-             <source src="./static/videos/waymo_baseline.mp4" type="video/mp4">
-           </video>
-         </div>
-         <div class="video-container">
-           <video width="320" height="240" autoplay controls muted loop playsinline>
-             <source src="./static/videos/room_final.mp4" type="video/mp4">
-           </video>
-           <video width="320" height="240" autoplay controls muted loop playsinline>
-             <source src="./static/videos/room_baseline.mp4" type="video/mp4">
-           </video>
-         </div>
-
-         <br>
-         <p style="font-size: 16px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Ours GaussianPro (left)</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>3DGS (right)</b></p>
-         <br>
-
-      </div>
-    </div>
-  </section>
-   <br>
-</section> -->
-
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{yu2025leveragecrossattentionendtoendopenvocabulary,
-      title={Leverage Cross-Attention for End-to-End Open-Vocabulary Panoptic Reconstruction}, 
-      author={Xuan Yu and Yuxuan Xie and Yili Liu and Haojian Lu and Rong Xiong and Yiyi Liao and Yue Wang},
-      year={2025},
-      eprint={2501.01119},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.01119}, 
-}</code></pre>
-  </div>
-</section>
+<!--End BibTex citation -->
 
 <footer class="footer">
   <div class="container">
