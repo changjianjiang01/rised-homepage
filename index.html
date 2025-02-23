@@ -234,17 +234,12 @@
         <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified">
         
-          <img src="./static/images/motivation.png">
+          <img src="./static/images/system.png">
           <p>
-            End-to-end open-vocabulary panoptic reconstruction by 2D foundation model faces three challenges:  
-            <p>
-              <strong>1) Misalignment:</strong> 2D instance IDs across frames are not align. 
-              <br>
-              <strong>2) Ambiguity:</strong> Due to the limited FoV, two objects that never co-occur in an image can be the same or different instances. 
-              <br>
-              <strong>3) Inconsistency:</strong> The semantic and instance segmentations obtained from two independent networks are inconsistent. 
-            </p>
-            We align 2D instance IDs by instance tokens linear assignment, eliminate the ambiguity of 3D instances by incorporating spatial prior, and output consistent semantic and instance masks by a parameter-free panoptic head, generating the geometric mesh with panoptic masking that allows for multi-branch novel-view synthesis.
+          Our system consists of two threads: LiDAR-based SLAM and colorized mapping. 
+          The LiDAR-based SLAM utilizes data from two LiDAR sensors and an IMU to estimate poses at the frequency of the IMU and generate dense point clouds.  
+          The colorized mapping thread incorporates two innovative processes: image selection and point cloud densification. 
+          Additionally, we introduce a novel approach to evaluate the quality of colorized point clouds. This method integrates three important factors: projection accuracy, geometric accuracy, and surface coverage.
           </p>
         </div>
       </div>
