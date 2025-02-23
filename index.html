@@ -156,17 +156,17 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2501.01119"
+                <a href="https://changjianjiang01.github.io/rised-homepage/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Arxiv</span>
+                  <span>Arxiv(coming soon)</span>
                 </a>
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.bilibili.com/video/BV1pP61YuEbm/?vd_source=16bffa885f8d40c0678b340384dd56db"
+                <a href="https://www.youtube.com/watch?v=hekSMeu1ihg"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -176,7 +176,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/yuxuan1206/PanopticRecon_plus"
+                <a href="https://changjianjiang01.github.io/rised-homepage/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -194,17 +194,6 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser"> -->
-
-<!-- </section> -->
-
-   <!-- <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  -->
 
    <!-- Paper video. -->
 
@@ -218,82 +207,7 @@
         </video>
   <!--/ Paper video. -->
 
-  <!-- <div class="image-container">
-    <div class="image-overlay"></div>
-    <img src="./static/images/zipdemo1.png" alt="Image 1" class="image image1">
-    <img src="./static/images/ucdemo1.png" alt="Image 2" class="image image2">
-  </div> -->
-<!-- </section> -->
 
-
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- <div id="outer-container">
-  <div id="container">
-    <img id="image1" src="./static/images/ucdemo1.png" />
-    <div id="slider">
-      <div class="arrow-right">&#9654;</div>
-      <div class="arrow-left">&#9664;</div>
-    </div>
-    <img id="image2" src="./static/images/zipdemo1.png" />
-  </div>
-</div>
-<script src="./static/js/test.js"></script> -->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -303,12 +217,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Open-vocabulary panoptic reconstruction offers comprehensive scene understanding, enabling advances in embodied robotics and photorealistic simulation. In this paper, <strong> we propose PanopticRecon++, an end-to-end method that formulates panoptic reconstruction through a novel cross-attention perspective. This perspective models the relationship between 3D instances (as <i> queries </i>) and the scene’s 3D embedding field (as <i>keys</i>) through their attention map.
-    Unlike existing methods that separate the optimization of queries and keys or overlook spatial proximity, PanopticRecon++ introduces <i>learnable 3D Gaussians</i> as instance queries. This formulation injects 3D spatial priors to preserve proximity while maintaining end-to-end optimizability. </strong> Moreover, this query formulation facilitates the alignment of 2D open-vocabulary instance IDs across frames by leveraging optimal linear assignment with instance masks rendered from the queries. Additionally, we ensure semantic-instance segmentation consistency by fusing query-based instance segmentation probabilities with semantic probabilities in a novel panoptic head supervised by a panoptic loss.  During training, the number of instance query tokens dynamically adapts to match the number of objects. PanopticRecon++ shows competitive performance in terms of 3D and 2D segmentation and reconstruction performance on both simulation and real-world datasets, and demonstrates a user case as a robot simulator. 
+          Recent advances in robotics have underscored the critical role of colorized point clouds in enhancing environmental perception accuracy. However, conventional multi-sensor fusion Simultaneous Localization and Mapping (SLAM) systems typically employ all available camera images indiscriminately for point cloud colorization, resulting in suboptimal outcomes characterized by blurred textures. Notably, achieving precise texture-to-geometry alignment remains a persistent challenge despite the availability of accurate camera pose estimation. This study introduces RISED, an advanced colorized mapping system that tackles this challenge from two perspectives: projection accuracy and distribution uniformity. For projection accuracy, we analyze the influence of camera poses on colorization and carefully select the optimal viewpoint to minimize errors. Regarding distribution uniformity, point cloud densification is applied to eliminate LiDAR scanning traces. Furthermore, a novel evaluation method is introduced to provide comprehensive assessment of both accuracy and efficiency of colorized point clouds, filling a gap in this field. Experimental results show that our method outperforms traditional approaches in RGB-colorized mapping. Specifically, our method achieves notable improvements in projection accuracy (55.2%), geometric accuracy (63.1%), and surface coverage (30.8%).
           </p>
-          <!-- <p>
-          We evaluate PanopticRecon++'s 3D and 2D segmentation and reconstruction performance on simulated and real-world datasets. Experiments demonstrate that PanopticRecon++ outperforms other open-vocabulary methods, particularly in scenes with numerous objects of varying sizes.
-          </p> -->
         </div>
       </div>
     </div>
